@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-	int lowerCase;
+	char lAlp;
 
-	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
-		putchar(lowerCase);
-		putchar("\n");
-		getch();
+	for (lAlp = 'a'; lAlp <= 'z'; lAlp++)
+		putchar(lAlp);
+		printf("\n");
 
 	return (0);
 }
