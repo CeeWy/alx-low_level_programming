@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char lowerCase;
+	int lowerCase;
 
 	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 		putchar(lowerCase);
