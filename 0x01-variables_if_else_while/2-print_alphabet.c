@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main-Entry point
+ * main - Entry point
  *
- * Return: Always 0(success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,6 +13,7 @@ int main(void)
 	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 		putchar(lowerCase);
 		putchar("\n");
+		getch();
 
-	return(0);
+	return (0);
 }
