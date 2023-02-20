@@ -4,15 +4,16 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char lAlp;
+	char low;
 
-	for (lAlp = 'a'; lAlp <= 'z'; lAlp++)
-		putchar(lAlp);
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
 		printf("\n");
 
 	return (0);
 }
+
