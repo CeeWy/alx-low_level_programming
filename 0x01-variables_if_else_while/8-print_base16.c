@@ -11,7 +11,7 @@ int main(void)
 	int fig;
 	char alp;
 
-	for (fig = 0; fig <= 9; fig++)
+	for (fig = '0'; fig <= '9'; fig++)
 	{
 		putchar(fig);
 	}
