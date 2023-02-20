@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - EntryPoint
+ * main - Entry Point
  *
- * Return : Always 0 (success)
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(alp);
 	}
-	for (alp ='a'; alp <= 'Z'; alp++)
+	for (alp = 'A'; alp <= 'Z'; alp++)
 	{
 		putchar(alp);
 	}
