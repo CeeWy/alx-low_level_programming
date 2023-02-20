@@ -9,11 +9,13 @@
 int main(void)
 {
 	char lAlp;
-
+	
 	for (lAlp = 'a'; lAlp <= 'z'; lAlp++)
+	{
 		putchar(lAlp);
 		putchar('\n');
-
+	}
+	
 	return (0);
 }
 
